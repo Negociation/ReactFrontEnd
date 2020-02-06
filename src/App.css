@@ -1,0 +1,132 @@
+body{
+  background: #f5f5f5;
+  overflow: hidden;
+
+}
+
+  
+#content{
+  position: absolute;
+  width: -webkit-fill-available;
+  height: calc(100% - 70px);
+  display: flex;
+  overflow-y: auto;
+  display: flow-root;
+}
+
+#loadingSpinner{
+  left:auto;
+  right: auto;
+  display:flex;
+  justify-content:center;
+  height:50px;
+}
+
+.produtoButton{
+  width: 100%;
+  height: 50px;
+  background-color: brown;
+  margin-left: 20px;
+  margin-right: 20px ;
+  justify-content: space-between;
+  align-content: center;
+  display: flex;
+  background: #FFFFFF;
+  border: 2px solid #CCCCCC;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.produtoButton p{
+  position: relative;
+  width: 100%;
+  height: 44px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 50px;
+  display: flex;
+  text-align: center;
+  color: #666666;
+  align-items: center;
+  justify-content: center;
+  margin-left: 44px;
+}
+
+.row {
+  margin-bottom: 10px;
+}
+
+.produtoButton span{
+  position: relative;
+  width: 44px;
+  height: 44px;  
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #666666;
+}
+
+.pedidosList{
+  height: 300px;
+  overflow-y: auto;
+}
+
+.pedidosList ul{
+  padding: 0;
+}
+.pedidosList li{
+  padding-left: 10px;
+  padding-right: 10px;
+
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2px;
+  margin-right: 2px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  height: 50px;
+  overflow-y: auto;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.leftContent{
+  font-size: 18px;
+  line-height: 25px;
+}
+.rightContent {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+@media (min-width: 768px) {
+  #content {
+    margin-left: 300px;
+    height: -webkit-fill-available;
+    padding-bottom:0;
+
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
